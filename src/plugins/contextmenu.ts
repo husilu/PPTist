@@ -32,7 +32,7 @@ const contextmenuListener = (el: HTMLElement, event: MouseEvent, binding: Direct
   }
   container = document.createElement('div')
   const vm = createVNode(ContextmenuComponent, options, null)
-  render(vm, container)
+  render(vm, container) // 虚拟节点渲染成真实节点 并且挂载到真实节点上
   document.body.appendChild(container)
 
   // 为目标节点添加菜单激活状态的className

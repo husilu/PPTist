@@ -63,7 +63,7 @@ export default defineComponent({
       const menuWidth = MENU_WIDTH
       const menuHeight = menuCount * MENU_HEIGHT + dividerCount * DIVIDER_HEIGHT + PADDING * 2
 
-      const screenWidth = document.body.clientWidth
+      const screenWidth = document.body.clientWidth // 网页可见区域宽度
       const screenHeight = document.body.clientHeight
 
       return {

@@ -13,7 +13,7 @@ export const slides: Slide[] = [
         height: 362.5,
         viewBox: 200,
         path: 'M 0 0 L 0 200 L 200 200 Z',
-        fill: '#5b9bd5',
+        fill: 'red',
         fixedRatio: false,
         opacity: 0.7,
         rotate: 0
@@ -52,7 +52,7 @@ export const slides: Slide[] = [
         top: 253.25,
         width: 585,
         height: 56,
-        content: '<p><span style=\'font-size:  24px\'>基于 Vue 3.x + TypeScript 的在线演示文稿应用</span></p>',
+        content: '<p><span style=\'font-size:  24px\'>测试输入框</span></p>',
         rotate: 0,
         defaultFontName: 'Microsoft Yahei',
         defaultColor: '#333'

@@ -21,7 +21,7 @@
       }"
     >
       <div class="operates">
-        <AlignmentLine 
+        <AlignmentLine
           v-for="(line, index) in alignmentLines" 
           :key="index" 
           :type="line.type" 

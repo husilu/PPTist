@@ -17,7 +17,6 @@
         >
           <span class="text">{{menu.text}}</span>
           <span class="sub-text" v-if="menu.subText && !menu.children">{{menu.subText}}</span>
-
           <menu-content 
             class="sub-menu"
             :menus="menu.children" 
